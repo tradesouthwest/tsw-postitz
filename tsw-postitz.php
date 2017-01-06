@@ -8,7 +8,7 @@
  * Author URI: http://tradesouthwest.com/
  * License: GPLv2
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
- * Plugin Slug: postitiz
+ * Plugin Slug: postitiz - Committed revision 1569710 01-06-2017
 */
 
 // Register style sheet

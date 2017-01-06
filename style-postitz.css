@@ -1,0 +1,211 @@
+/* Plugin Name: TSW Postitz
+ * Author: Tradesouthwest
+ * Version: 0.2
+ */
+input,
+button,
+select,
+textarea {
+  color: #111;
+	font-family: "Noto Serif", serif;
+	font-size: 15px;
+	font-size: 1.5rem;
+	line-height: 1.6;
+}
+textarea {
+	background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)); /* Removing the inner shadow on iOS inputs */
+	border: 1px solid #eaeaea;
+	border: 1px solid rgba(51, 51, 51, 0.1);
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+padding: 3px!important;
+	width: 100%;
+vertical-align: top;
+}
+
+input:focus,
+textarea:focus {
+	background-color: #fff;
+	border: 1px solid #c1c1c1;
+	border: 1px solid rgba(51, 51, 51, 0.3);
+	color: #333;
+}
+@media screen and (min-width: 46.25em) {
+	input,
+	select,
+	textarea {
+		font-size: 17px;
+		font-size: 1.7rem;
+		line-height: 1.6471;
+	}
+
+@font-face {
+   font-family: Santion_Light;
+   src: url(fonts/Sansation_Light.woff);
+}
+@font-face {
+   font-family: HoneyScript-Light;
+   src: url(fonts/HoneyScript-Light.ttf);
+}
+@font-face {
+   font-family: LearningCurve;
+   src: url(fonts/LearningCurve.ttf);
+}
+#postitz_lrg {
+width: 300px !important;
+height: 300px !important;
+padding: 30px 12px 12px 12px;
+border: thin solid #e8e8e8;
+box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.2);
+}
+#postitz_lrg:after {
+z-index: -1;
+position: absolute;
+content: "";
+bottom: 8px;
+left: 12px;
+width: 275px;
+top: 70%;
+background: rgba(0,0,0,0.1);
+max-width: 350px;
+box-shadow: 0 15px 8px rgba(0,0,0, .7);
+transform: rotate(3.3deg);
+}
+#postitz_med {
+width: 280px;
+height: 170px;
+padding: 20px 9px 9px 9px;
+border: thin solid #e8e8e8;
+box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.15);
+}
+#postitz_med:after {
+z-index: -1;
+position: absolute;
+content: "";
+bottom: 9px;
+left: 17px;
+width: 250px;
+top: 70%;
+background: rgba(0,0,0,0.1);
+max-width: 280px;
+box-shadow: 0 15px 8px rgba(0,0,0, .7);
+transform: rotate(3.3deg);
+}
+#postitz_sml {
+font-size: 87.5%;
+line-height: 1;
+width: 150px;
+height: 150px;
+padding: 15px 9px 9px 9px;
+}
+#postitz_sml:after {
+z-index: -1;
+position: absolute;
+content: "";
+bottom: 14px;
+left: 10px;
+width: 135px;
+top: 70%;
+background: rgba(0,0,0,0.1);
+max-width: 180px;
+box-shadow: 0 15px 8px rgba(0,0,0, .75);
+transform: rotate(3.3deg);
+}
+.postitz_ocd {
+margin: 5px;
+transform: rotate(0);
+}
+.postitz_off {
+margin: 5px;
+transform: rotate(1.5829deg);
+}
+.yellow {
+background: #fafaaa;
+}
+.white {
+background: white;
+}
+.pink {
+background: pink;
+}
+.blue {
+background: cyan;
+}
+.red {
+background: #eeaa66;
+}
+.postitz-text .Honey {
+font-family: 'HoneyScript-Light', cursive;
+color: midnightblue;
+}
+.postitz-text .Sansation {
+font-family: 'Santion_Light', cursive;
+color: midnightblue;
+}
+.postitz-text .Curve {
+font-family: 'LearningCurve', cursive;
+color: midnightblue;
+}
+.postitz-text .SanSerif {
+font-family: sans-serif;
+color: midnightblue;
+}
+.postitz-text .Courier {
+font-family: "Courier New", Courier, monospace;
+line-height: 1.2;
+color: midnightblue;
+}
+.postit {
+color: blue;
+overflow: hidden;
+}
+.postbox .hndle:hover {
+    cursor:default;
+}
+#postitz_lrg .SanSerif {
+font-size: 1.2128em;
+}
+#postitz_med .SanSerif {
+font-size: 100%;
+line-height: 1;
+}
+#postitz_sml .SanSerif {
+font-size: 90%;
+}
+#postitz_lrg .Courier {
+font-size: 1.2128em;
+}
+#postitz_med .Courier {
+font-size: 100%;
+}
+#postitz_sml .Courier {
+font-size: 90%;
+}
+#postitz_lrg .Curve {
+font-size: 2.222em;
+line-height: .8385em;
+}
+#postitz_med .Curve {
+font-size: 100%;
+}
+#postitz_sml .Curve {
+font-size: 90%;
+}
+#postitz_lrg .Sansation {
+font-size: 1.2128em;
+}
+#postitz_med .Sansation {
+font-size: 100%;
+}
+#postitz_sml .Sansation {
+font-size: 90%;
+}
+#postitz_lrg .Honey {
+font-size: 1.825em;
+}
+#postitz_med .Honey {
+font-size: 140%;
+}
+#postitz_sml .Honey {
+font-size: 148%;
+}

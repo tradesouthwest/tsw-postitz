@@ -1,8 +1,8 @@
 # tsw-postitz
 User meta-box to add shortcode into post which outputs fancy post it note
 
-Plugin Name: TSW PostItz
-Plugin URI: http://themes.tradesouthwest.com/wordpress/plugins/TSW-PostItz/
+Plugin Name: TSW PasteItz
+Plugin URI: http://themes.tradesouthwest.com/wordpress/plugins/TSW-PasteItz/
 Description: User meta-box to add shortcode into post which outputs fancy post it note.
 Version: 0.2
 Author: tradesouthwest
@@ -13,9 +13,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 == Description ==
 User meta-box to add shortcode into post which outputs fancy post it note.
 Features
-* Five colors of PostItz notes
+* Five colors of Pasteitz leafs
 * Five cool fonts to choose from
-* Uses shortcode to insert PostItz into post (See http://codex.wordpress.org/Shortcode to learn about shortcodes)
+* Uses shortcode to insert Pasteitz into post (See http://codex.wordpress.org/Shortcode to learn about shortcodes)
 * Has three sizes of notes to pick from, large, medium and small
 * Also a special O.C.D. mode for those who just can't live with the tilt alignment of notes
 
@@ -30,7 +30,7 @@ Q.: Can I turn off the tilt of the note?
 A.: Yes, there is an O.C.D. mode! Just activate it and the note will be straight.
 
 Q.: what if I need help with this plugin?
-A.: utilize the WordPres.org support system on the TSW-Postitz page or email to support@tradesouthwest.com
+A.: As of June 1, 2017 3M forced make me to remove this plugin from w.org. they do not support the Open Source community so please boycott all of their products.
 
 == Screenshots ==
 1. Nifty little postable note
